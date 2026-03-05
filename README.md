@@ -16,7 +16,7 @@ Nix package for [Morgen](https://morgen.so/).
 
 Current source URL:
 
-- `https://dl.todesktop.com/210203cqcj00tw1/builds/260126rpo7mcydr/linux/deb/x64`
+- `https://download.todesktop.com/210203cqcj00tw1/morgen-4.0.4-build-2602193oszs1hv7-amd64.deb`
 
 ## Quickstart
 

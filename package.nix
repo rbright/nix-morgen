@@ -35,13 +35,13 @@
 }:
 stdenv.mkDerivation rec {
   pname = "morgen";
-  version = "4.0.1";
-  buildId = "260126rpo7mcydr";
+  version = "4.0.4";
+  buildId = "2602193oszs1hv7";
 
   src = fetchurl {
-    name = "morgen-${version}-${buildId}.deb";
-    url = "https://dl.todesktop.com/210203cqcj00tw1/builds/${buildId}/linux/deb/x64";
-    hash = "sha256-UmbHA7p3nuat0zv/uIHZV9li/LHOnk9oUB1RGJwj6zE=";
+    name = "morgen-${version}-build-${buildId}-amd64.deb";
+    url = "https://download.todesktop.com/210203cqcj00tw1/morgen-${version}-build-${buildId}-amd64.deb";
+    hash = "sha256-BAUZAylPJKKUcR3VXQ2pm5VDuJjxM9AnDzujZvuE3BA=";
   };
 
   nativeBuildInputs = [
